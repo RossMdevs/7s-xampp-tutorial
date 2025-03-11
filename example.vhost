@@ -1,0 +1,13 @@
+ <VirtualHost *:80>
+     DocumentRoot "C:/xampp/htdocs/"
+     ServerName 
+     ServerAlias 
+ </VirtualHost>
+ <VirtualHost *:443>
+     DocumentRoot "C:/xampp/htdocs/"
+     ServerName 
+     ServerAlias 
+     SSLEngine on
+     SSLCertificateFile "crt/
+     SSLCertificateKeyFile "crt/"
+ </VirtualHost>
